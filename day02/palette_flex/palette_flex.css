@@ -1,0 +1,37 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.palette2 {
+  display: flex;
+  /*자식들이 균등하게 자리 차지하는 CSS*/
+  flex: 1 1 auto;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.a {
+  background-color: #ff5e5e;
+}
+
+.b {
+  background-color: #4bdbff;
+}
+
+.c {
+  background-color: #5fff97;
+}
+
+.d {
+  background-color: #ffbdbd;
+}
+
+.e {
+  background-color: #d278ff;
+}

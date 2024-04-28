@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "JalnanGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+  border-radius: 25px;
+  width: 250px;
+  height: 450px;
+  background-image: url(hotel.jpg);
+  background-size: cover;
+  padding: 20px;
+  filter: brightness(1.07);
+  /*0.3초 뒤에 실행하라는뜻*/
+  transition: all 0.5s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+/*마우스 올렸을 때 작동*/
+.card:hover {
+  height: 700px;
+  filter: brightness(0.95);
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 20px;
+}
+
+.category {
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  border-bottom: 1px solid white;
+  padding-bottom: 1px;
+  width: fit-content;
+  text-align: left;
+  gap: 20px;
+  /*text-decoration: underline;*/
+}
+
+.title {
+  font-family: "JalnanGothic";
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+.desc {
+  font-family: "Pretendard-Regular";
+  font-size: 18px;
+  text-align: left;
+}

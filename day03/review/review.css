@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  gap: 100px;
+  width: fit-content;
+  padding: 30px 40px 30px 40px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 20px 2px rgb(147, 152, 159, 0.2);
+}
+
+.box {
+  font-size: 30px;
+  color: gray;
+}
+
+.green {
+  color: green;
+}

@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "YangjuByeolsanA1";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/YangjuByeolsanA1.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  width: 100vw;
+  height: 60px;
+  position: fixed;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+nav {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "YangjuByeolsanA1";
+}
+
+nav > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav > a > span {
+  font-size: 40px;
+  color: white;
+}
+
+nav > button {
+  width: 110px;
+  height: 44px;
+  background-color: rgba(91, 91, 91, 0.4);
+  font-family: "YangjuByeolsanA1";
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 11px 14px;
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+      format("woff"),
+    url("path/to/Pretendard-Regular.woff2") format("woff2"); /* 추가 폰트 포멧 */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Freesentation-9Black";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2")
+    format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+  /*font*/
+  --font-primary: "Pretendard-Regular";
+  --font-myfont: "Freesentation-9Black";
+  --font-mega: 120px;
+  --font-super: 72px;
+  --font-large: 32px;
+  --font-regular: 24px;
+  --font-medium: 16px;
+  --font-small: 12px;
+
+  /* width */
+  --width-max: 1200px;
+
+  /* border */
+
+  /* color */
+  --color-white: #fff;
+  --color-grey: #555;
+  --color-darkgrey: rgb(99, 99, 99);
+  --color-lightgrey: #949494;
+}
